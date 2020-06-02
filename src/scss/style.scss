@@ -1,0 +1,23 @@
+//@import "~bootstrap/scss/bootstrap.scss";
+
+//base files
+@import "base/variables";
+@import "base/typography";
+@import "base/mixins";
+@import "base/helpers";
+
+//components
+@import "components/button";
+@import "components/input";
+@import "components/table";
+@import "components/list";
+
+@include spacing();
+
+@include colors($colors);
+
+@include backgrounds($colors);
+
+body {
+  background: black;
+}
